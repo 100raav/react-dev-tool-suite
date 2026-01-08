@@ -1,16 +1,143 @@
-# React + Vite
+# 📘 React Dev Tool Suite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Developer Tool Suite** that combines a **Code Editor**, **JavaScript Runner with User Input**, and a **Regex Tester** — all in one clean, modern interface.
 
-Currently, two official plugins are available:
+This project is designed for **learning, practicing, and debugging JavaScript**, and demonstrates strong understanding of **React, async JavaScript, parsing logic, and UI/UX design**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+Live Link : [https://react-dev-tool-suite.vercel.app/](https://react-dev-tool-suite.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Project Overview
 
-## Expanding the ESLint configuration
+**React Dev Tool Suite** is a mini IDE built using React that allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Write and analyze JavaScript code
+* Execute JavaScript with real-time user input
+* Test and validate complex regular expressions
+* View syntax errors and AST (token-level)
+* Simulate real-world coding scenarios
+
+This project is **portfolio-ready** and suitable for **students, learners, and junior developers**.
+
+---
+
+## ✨ Features
+
+### 🧠 Code Editor
+
+* Line numbers (auto-synced)
+* Auto-growing editor height
+* Syntax validation (brackets & parentheses)
+* Error highlighting with line & column
+* Console output capture
+* AST (token view) generation
+* Supports async code with `await prompt()`
+
+---
+
+### ▶ JavaScript Runner
+
+* Execute JavaScript logic safely
+* Supports **multiple user inputs**
+* Async execution (`await prompt`)
+* Real-time console output
+* Execution status (Running / Waiting / Completed)
+* No execution timeout during user input
+* Clean separation from editor logic
+
+---
+
+### 🔍 Regex Tester
+
+* Input custom regex patterns
+* Test against large text blocks
+* Match counting & listing
+* Error handling for invalid regex
+* Useful for real-world validation tasks
+
+---
+
+## 🛠️ Tech Stack
+
+* **React (Create React App)**
+* **JavaScript (ES6+)**
+* **CSS (Custom, Dark Theme)**
+* **React Hooks (useState, useEffect, useRef)**
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+Follow these steps to run the project on your system:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/100raav/react-dev-tool-suite.git
+```
+
+### 2️⃣ Go to project folder
+
+```bash
+cd react-dev-tool-suite
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the development server
+
+```bash
+npm start
+```
+
+### 5️⃣ Open in browser
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── CodeEditor.jsx
+ │    ├── JsRunner.jsx
+ │    ├── RegexTester.jsx
+ ├── App.jsx
+ ├── index.css
+ ├── index.js
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+* Deep understanding of **React component architecture**
+* Handling **async JavaScript execution**
+* Implementing **custom prompt systems**
+* Regex validation & testing
+* UI design for developer tools
+* Error handling & debugging logic
+
+---
+
+## 👤 Author
+
+**Saurav Kumar Bichha**
+© 2026
+
+GitHub: [https://github.com/100raav](https://github.com/100raav)
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning and educational purposes.
